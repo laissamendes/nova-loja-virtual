@@ -10,3 +10,16 @@ services:
       - PASSAGE_API_KEY=ci1uwo993D.HKgntYsqwXQh9TGadFRvveqenuSBYMRLSs78qOwmBoafNSfeB5HpGOUu1wQZno1J
     ports:
       - 8000:8000
+
+# name: fakestore-backend-drf
+# services:
+#   app:
+#     image: eduardosilvasc/fakestore-backend-drf:latest
+#     environment:
+#       - MODE=DEVELOPMENT #  possible values are: DEVELOPMENT, PRODUCTION, MIGRATE
+#       - SECRET_KEY=arkh*6hn#88+4t823brpb$s$wn1#q1@mygg!95qw15x-j5l&4e
+#       - DEBUG=True #  possible values are: True, False
+#       - PASSAGE_APP_ID=Rlt875gTxFVtFp2yW9UTsJpy
+#       - PASSAGE_API_KEY=ci1uwo993D.HKgntYsqwXQh9TGadFRvveqenuSBYMRLSs78qOwmBoafNSfeB5HpGOUu1wQZno1J
+#     ports:
+#       - 8000:8000
